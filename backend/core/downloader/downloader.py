@@ -14,7 +14,7 @@ class ACCDownloader(ABC):
     """Downloader class for downloading objects"""
 
     url: str
-    size: SIZE
+    size: SIZE = SIZE.LARGE
 
     @abstractmethod
     def download(self):
