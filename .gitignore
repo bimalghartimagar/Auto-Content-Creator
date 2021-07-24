@@ -2,6 +2,10 @@ __pycache__
 
 .env
 
+# Ignore coverage report
 coverage_report/
-
 .coverage
+
+# Ignore audio video files
+*.mp3
+*.mp4
