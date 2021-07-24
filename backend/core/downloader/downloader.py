@@ -4,9 +4,9 @@ from dataclasses import dataclass
 
 
 class SIZE(Enum):
-    LARGE = 'large'
-    MEDIUM = 'medium'
-    SMALL = 'small'
+    LARGE = 1
+    MEDIUM = 2
+    SMALL = 3
 
 
 @dataclass
