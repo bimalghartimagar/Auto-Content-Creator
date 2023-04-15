@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Bimal Gharti Magar <bimal.gharti.magar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+bs4 = "^0.0.1"
+python-dotenv = "^0.18.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+fastapi = "^0.67.0"
+uvicorn = {extras = ["standard"], version = "^0.14.0"}
+celery = "^5.1.2"
+SQLAlchemy = "^1.4.22"
+redis = "^3.5.3"
+psycopg2 = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
